@@ -1,0 +1,105 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+body{
+	background-color:#fff;
+	width: 1000px;
+	margin:auto;
+	font-family:STKaiti, serif;
+	color:black;
+}
+
+
+.logo{
+	text-align:center;
+}
+
+/*.nav-main-item {
+	display: inline-block;
+	color: #ffffff;
+	background-color: #B7BE78;
+	font-size: 1.5rem;*/
+
+.flex-container{
+	width:100%;
+	display:flex;
+	background-color: #B7BE78;
+	font-size: 1.2rem;
+	text-align: center;
+	justify-content:center;
+	margin:5px 0px;
+	padding:10px 0px;
+}
+
+.flex-container div{
+	width:150px;
+
+}
+
+div>a:link{
+	text-decoration: none;
+	color:black;
+}
+
+div>a:hover{
+	font-weight: bold;
+	color:#B2B785;
+}
+
+div>a:focus{
+	font-weight:bold;
+	color:#fff;
+}
+
+
+nav a{
+	color:white;
+}
+
+figure{
+	margin:auto;
+}
+
+footer{
+ text-align: center;
+ background-color: #B2B785;
+ color:white;
+ margin: -1.2em auto 0px auto; 
+ padding-top:2em;
+ padding-bottom: .8em;
+
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
