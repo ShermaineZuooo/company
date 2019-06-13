@@ -126,14 +126,12 @@ footer{
 	display:flex;
 	padding-bottom: 30%;
 
- 
 }
 
 .product-item{
 	margin-left: 10%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
-  margin: auto;
   text-align: center;
   font-family: arial;
 }
