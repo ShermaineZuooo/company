@@ -110,6 +110,7 @@ footer{
 .product-container{
 	display:flex;
 	padding-bottom: 30%;
+  position: relative;
 	
 
 }
