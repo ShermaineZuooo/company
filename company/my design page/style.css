@@ -130,10 +130,10 @@ footer{
 .product-item{
 	
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
+  margin: 30%;
 	text-align:center;
   max-width: 300px;
-  position: relative
+
 	
 
 }
