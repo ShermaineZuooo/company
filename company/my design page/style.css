@@ -119,7 +119,9 @@ footer{
   padding-left: 5%;
   padding-right: 5%;
 }
-
+.list h1{
+  margin-left: 10%;
+}
 .product-container{
 	display:flex;
 	padding-bottom: 30%;
