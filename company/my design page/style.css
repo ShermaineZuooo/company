@@ -49,13 +49,12 @@ figure{
 }
 
 footer{
- text-align: center;
- background-color: #B2B785;
- color:white;
+
+ color:rgb(8, 1, 1);
  margin: 0.2em auto 0px auto; 
  padding-top:2em;
  padding-bottom: .8em;
-
+ display: in-line block;
 }
 
 /* Container needed to position the button. Adjust the width as needed */
