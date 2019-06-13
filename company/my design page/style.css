@@ -54,7 +54,8 @@ footer{
  margin: 0.2em auto 0px auto; 
  padding-top:2em;
  padding-bottom: .8em;
- display: in-line block;
+ display: flex;
+ align-items: center;
 }
 
 /* Container needed to position the button. Adjust the width as needed */
