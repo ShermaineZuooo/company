@@ -111,7 +111,7 @@ footer{
 
 .product-container{
 	display:inline-block;;
-	padding: 5%,0,10%
+	padding: 5%,0,10%,0;
 }
 
 .product-item{
