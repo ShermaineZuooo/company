@@ -106,6 +106,14 @@ footer{
 	position: :10;
 }
 
+.category{
+	background-color: #B7BE78;
+	color:white;
+	padding:1.5em;
+	max-width: 15%;
+	margin-top:0;
+	height: 200%;
+}
 
 .product-container{
 	display:flex;
@@ -177,14 +185,6 @@ input[type=submit]:hover {
 .contactform {
 
   padding: 5%;
-}
-.category{
-	background-color: #B7BE78;
-	color:white;
-	padding:1.5em;
-	max-width: 15%;
-	margin-top:0;
-	height: 200%;
 }
 
 	
