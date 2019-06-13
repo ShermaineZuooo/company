@@ -108,15 +108,18 @@ footer{
   transform: translate(-50%, -50%);
 }
 
+
 .product-container{
-	display:flex;
-	flex-direction: column;
+	display:inline-block;;
 }
 
 .product-item{
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	margin:auto;
 	text-align:center;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+
 }
 
 .product-item div{
@@ -124,8 +127,9 @@ footer{
 }
 
 .product-item p{
-	
-  padding:1em 0.5em;
+	background-color:#6DA888;
+	margin:0;
+	padding:1em 0.5em;
 }
 
 .container .btn:hover {
