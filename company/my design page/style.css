@@ -107,7 +107,7 @@ footer{
 }
 
 .shoppage{
-  display: inline-block;
+  display: flex;
 }
 .category{
 	background-color: #B7BE78;
