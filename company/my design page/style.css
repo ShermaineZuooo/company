@@ -139,7 +139,6 @@ footer{
 	padding-right:5%;
 }
 .contact{
-    padding-bottom: 50%;
 	padding-top:5%;
 	padding-left: 5%;
 	padding-right:5%;
@@ -169,8 +168,7 @@ input[type=submit]:hover {
 }
 
 .contactform {
-  border-radius: 5px;
-  background-color: #f2f2f2;
+
   padding: 20px;
 }
 	
