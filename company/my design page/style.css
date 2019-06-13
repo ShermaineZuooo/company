@@ -65,7 +65,7 @@ footer{
  text-align: center;
  background-color: #B2B785;
  color:white;
- margin: -1.2em auto 0px auto; 
+ margin: 0.2em auto 0px auto; 
  padding-top:2em;
  padding-bottom: .8em;
 
@@ -86,8 +86,8 @@ footer{
 /* Style the button and place it in the middle of the container/image */
 .container .btn {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 80%;
+  left: 25%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555;
@@ -97,6 +97,35 @@ footer{
   border: none;
   cursor: pointer;
   border-radius: 5px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+ color:white;
+ font-size:40px;
+  transform: translate(-50%, -50%);
+}
+
+.product-container{
+	display:flex;
+	flex-direction: column;
+}
+
+.product-item{
+	margin:auto;
+	text-align:center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.product-item div{
+	background-color:#fff;
+}
+
+.product-item p{
+	
+  padding:1em 0.5em;
 }
 
 .container .btn:hover {
