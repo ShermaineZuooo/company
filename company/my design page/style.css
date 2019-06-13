@@ -83,7 +83,7 @@ footer{
 /* Style the button and place it in the middle of the container/image */
 .container .btn {
   position: absolute;
-  top: 80%;
+  top: 60%;
   left: 25%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -103,7 +103,7 @@ footer{
  color:white;
  font-size:40px;
   transform: translate(-50%, -50%);
-	position: :10;
+	
 }
 
 .shoppage{
