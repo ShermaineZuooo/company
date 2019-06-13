@@ -131,23 +131,36 @@ footer{
 
 .product-item{
 	
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin-left: 10%;
-	text-align:center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
-
-	
-
+  margin: auto;
+  text-align: center;
+  font-family: arial;
 }
 
-.product-item div{
-	background-color:#fff;
+.product-item button{
+	border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.product-item button:hover{
+  opacity: 0.7;
 }
 
 .product-item p{
 	background-color:#fff;
 	margin:0;
 	padding:1em 0.5em;
+}
+.price {
+  color: grey;
+  font-size: 22px;
 }
 
 .container .btn:hover {
