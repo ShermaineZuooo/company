@@ -112,6 +112,8 @@ footer{
 .product-container{
 	display:inline-block;;
 	padding-bottom: 30%;
+	
+
 }
 
 .product-item{
@@ -120,7 +122,7 @@ footer{
 	margin:auto;
 	text-align:center;
   max-width: 300px;
-	padding: auto;
+	padding: 5%；
 
 }
 
