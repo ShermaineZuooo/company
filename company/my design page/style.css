@@ -61,7 +61,8 @@ footer{
 
 .footer1{
  display: flex;
- padding:5%;
+ padding-left:5%;
+ padding-right:5%;
  
 }
  
