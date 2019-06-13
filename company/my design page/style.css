@@ -106,6 +106,9 @@ footer{
 	position: :10;
 }
 
+.shoppage{
+  display: inline-block;
+}
 .category{
 	background-color: #B7BE78;
 	color:white;
@@ -183,7 +186,6 @@ input[type=submit]:hover {
 }
 
 .contactform {
-
   padding: 5%;
 }
 
