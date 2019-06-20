@@ -287,7 +287,7 @@ input[type=submit]:hover {
  
 .cart-btn {
   display: inline-block;
-  background-color: rgb(155, 207, 127);
+  background-color: rgb(191, 195, 145);
   border-radius: 6px;
   font-size: 14px;
   color: #FFFFFF;
@@ -296,7 +296,8 @@ input[type=submit]:hover {
   transition: all .5s;
 }
 .cart-btn:hover {
-  background-color: #b9dba6;
+  background-color: rgb(191, 195, 145);
+  opacity: 80%;
 }
 
 
