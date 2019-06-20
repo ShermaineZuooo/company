@@ -128,22 +128,11 @@ footer{
   padding-right: 5%;
  
 }
-.category a:link{
-  text-color: white;
+.category a{
+  color: white;
   text-decoration: none;
 }
-.category a:visted{
-  text-color: white;
-  text-decoration: none;
-}
-.category a:active{
-  text-color: white;
-  text-decoration: none;
-}
-.category a:hover{
-  text-color: white;
-  text-decoration: none;
-}
+
 .list{
   position: flex;
 }
