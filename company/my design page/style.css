@@ -126,6 +126,9 @@ footer{
   padding-left: 5%;
   padding-right: 5%;
 }
+.list{
+  position: flex;
+}
 .list h1{
   margin-left: 10%;
   margin-bottom: 5%;
