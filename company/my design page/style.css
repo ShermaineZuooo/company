@@ -128,6 +128,10 @@ footer{
   padding-right: 5%;
   text-decoration: none;
 }
+category a{
+  color: white;
+  text-decoration: none;
+}
 .list{
   position: flex;
 }
