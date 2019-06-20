@@ -533,6 +533,10 @@ margin-left: -200px;
   display:float;
   width:300px;
   margin-left:700px;
+  padding-left:2%;
+}
+.summary h3{
+  color:rgb(177, 212, 144);
 }
 
 /* Responsive */
