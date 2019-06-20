@@ -12,7 +12,11 @@ body{
 	color:black;
 }
 
-
+.bag{
+  position: absolute;
+  left:86%;
+  top:8%;
+}
 
 .logo{
 	text-align:center;
