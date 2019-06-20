@@ -525,6 +525,10 @@ margin-left: -200px;
 .payment h3{
   color:rgb(177, 212, 144);
 }
+.payment cvv{
+  display: inline-block;
+}
+
 /* Responsive */
 @media (max-width: 940px) {
   .details {
