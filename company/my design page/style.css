@@ -131,12 +131,12 @@ footer{
 }
 .list h1{
   margin-left: 10%;
-  margin-bottom: 5%;
+  margin-bottom:5%;
 }
 .product-container{
 	display:flex;
-	padding-bottom: 30%;
-  margin-bottom: 5%;
+	
+  margin-bottom:5%;
 
 }
 
@@ -372,6 +372,11 @@ input[type=submit]:hover {
  
 #con p:first-child {
     font-size: 48px;
+}
+
+.about img{
+  display:inline-block;
+  text-align: center;
 }
 
 	
