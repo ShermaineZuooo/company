@@ -182,6 +182,12 @@ footer{
 	padding-left: 5%;
 	padding-right:5%;
 }
+.about img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .contact{
 	padding-top:5%;
 	padding-left: 5%;
