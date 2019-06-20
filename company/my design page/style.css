@@ -296,8 +296,10 @@ input[type=submit]:hover {
 
 
 .about img{
-  text-align: center;
+  	text-align:center;
+
 }
+
 .about p{
   text-align: center;
 }
