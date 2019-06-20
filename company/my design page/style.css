@@ -217,6 +217,7 @@ input[type=submit]:hover {
   width: 65%;
   position: relative;
   border-color:#50a554;
+  border: 2px;
 }
  
 .right-column {
