@@ -128,19 +128,7 @@ footer{
   padding-right: 5%;
  
 }
-.category a:link{
-  color: white;
-  text-decoration: none;
-}
-.category a:visted{
-  color: white;
-  text-decoration: none;
-}
-.category a:active{
-  color: white;
-  text-decoration: none;
-}
-.category a:hover{
+.category a{
   color: white;
   text-decoration: none;
 }
