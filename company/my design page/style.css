@@ -401,6 +401,7 @@ input[type=submit]:hover {
     font-size: 48px;
 }
 
+
 .bag-container{
 	display:flex;
   margin-bottom:5%;
@@ -429,6 +430,14 @@ input[type=submit]:hover {
   margin-left: 3%;
   font-weight: 300;
   font-size: 30px;
+  color: #43484D;
+  letter-spacing: -2px;
+  line-height: 1px;
+}
+.product-detail h4{
+  margin-left: 3%;
+  font-weight: 300;
+  font-size: 25px;
   color: #43484D;
   letter-spacing: -2px;
   line-height: 1px;
