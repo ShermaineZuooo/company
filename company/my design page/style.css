@@ -225,8 +225,6 @@ input[type=submit]:hover {
 .details {
   max-width: 1200px;
   margin: 0 auto;
-  
-  
   display: flex;
 }
 /* Columns */
@@ -289,7 +287,7 @@ input[type=submit]:hover {
  
 .cart-btn {
   display: inline-block;
-  background-color: #7DC855;
+  background-color: rgb(155, 207, 127);
   border-radius: 6px;
   font-size: 14px;
   color: #FFFFFF;
@@ -298,7 +296,7 @@ input[type=submit]:hover {
   transition: all .5s;
 }
 .cart-btn:hover {
-  background-color: #64af3d;
+  background-color: #b9dba6;
 }
 
 
