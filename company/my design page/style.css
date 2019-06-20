@@ -405,8 +405,12 @@ input[type=submit]:hover {
 	display:flex;
   margin-bottom:5%;
   border:0.5px solid rgb(8, 1, 1);
-  margin-left:10%;
+  margin-left:5%;
   min-width: 550px;
+}
+.list h1{
+  margin-left:5%;
+  margin-bottom: 2%;
 }
 
 .bag-item{
