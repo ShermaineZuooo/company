@@ -374,7 +374,8 @@ input[type=submit]:hover {
 }
 
 .about img{
-  display:inline-block;
+  display:flex;
+  text-align: center;
 }
 .about p{
   text-align: center;
