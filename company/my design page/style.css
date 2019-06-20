@@ -129,19 +129,19 @@ footer{
  
 }
 .category a:link{
-  color: white;
+  text-color: white;
   text-decoration: none;
 }
 .category a:visted{
-  color: white;
+  text-color: white;
   text-decoration: none;
 }
 .category a:active{
-  color: white;
+  text-color: white;
   text-decoration: none;
 }
 .category a:hover{
-  color: white;
+  text-color: white;
   text-decoration: none;
 }
 
