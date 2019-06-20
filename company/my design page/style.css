@@ -463,7 +463,7 @@ input[type=submit]:hover {
   width: 260px;
 }
 
-.bag-item button{
+.remove-item button{
 	border: none;
   outline: 0;
   padding: 12px;
@@ -474,15 +474,10 @@ input[type=submit]:hover {
   width: 100%;
   font-size: 18px;
 }
-.bag-item button:hover{
+.remove-item button:hover{
   opacity: 0.7;
 }
 
-.bag-item p{
-	background-color:#fff;
-	margin:0;
-	padding:1em 0.5em;
-}
 
 /* Responsive */
 @media (max-width: 940px) {
