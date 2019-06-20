@@ -131,7 +131,7 @@ footer{
 }
 .list h1{
   margin-left: 10%;
-  margin-bottom: 5%;
+  margin-bottom:0;
 }
 .product-container{
 	display:flex;
