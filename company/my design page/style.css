@@ -128,19 +128,19 @@ footer{
   padding-right: 5%;
  
 }
-category a:link{
+.category a:link{
   color: white;
   text-decoration: none;
 }
-category a:visted{
+.category a:visted{
   color: white;
   text-decoration: none;
 }
-category a:active{
+.category a:active{
   color: white;
   text-decoration: none;
 }
-category a:hover{
+.category a:hover{
   color: white;
   text-decoration: none;
 }
@@ -318,7 +318,9 @@ input[type=submit]:hover {
   opacity: 50%;
 }
 
-
+.about{
+  padding-bottom: 5%;
+}
 .about img{
   	text-align:center;
 
