@@ -406,9 +406,9 @@ input[type=submit]:hover {
 .bag-container{
 	display:flex;
   margin-bottom:5%;
-   border:0.6px solid rgb(175, 166, 166);
+  border:0.6px solid rgb(175, 166, 166);
   margin-left:5%;
-  min-width: 550px;
+  min-width: 650px;
 }
 .list h1{
   margin-left:5%;
@@ -465,14 +465,14 @@ input[type=submit]:hover {
 }
 .remove-item{
 margin-top:230px;
-margin-left: -200px;
+margin-left: -160px;
 }
 .remove-item button{
 	border-radius: 15px;
   outline: 0;
   padding: 12px;
   color: white;
-  background-color: #000;
+  background-color: rgb(177, 212, 144);
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -492,11 +492,11 @@ margin-left: -200px;
   margin-top:-345px;
   margin-bottom:150px;
 }
-/*check out*/
+
 .checkout{
-  margin-top:245px;
-  margin-left: 20px;
-  margin-right:10px;
+  margin-top:30px;
+  margin-left: 10px;
+  margin-right:40px;
 }
 
 .checkout button{
@@ -504,16 +504,22 @@ margin-left: -200px;
   outline: 0;
   padding: 12px;
   color: white;
-  background-color: #000;
+  background-color:rgb(177, 212, 144);
   text-align: center;
   cursor: pointer;
   width: 100%;
   font-size: 18px;
-
 }
 .checkout button:hover{
   opacity: 0.7;
 }
+.total hr{
+   width:85%;
+  margin-left:1px;
+  margin-top:10px;
+  border-top: 1px solid rgb(177, 212, 144);
+}
+./*check out*/
 
 .sbaddress{
   border:0.6px solid rgb(175, 166, 166);
