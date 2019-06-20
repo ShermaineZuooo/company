@@ -413,6 +413,14 @@ input[type=submit]:hover {
   margin-bottom: 2%;
 }
 
+.product-detail h2{
+  font-size: 12px;
+  color: #358ED7;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 .bag-item{
 	padding-left:3px;
   padding-top:3px;
