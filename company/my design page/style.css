@@ -117,7 +117,7 @@ footer{
   display: flex;
 }
 .category{
-  position: fixed;
+  position: obsolute;
 	background-color: #B7BE78;
 	color:white;
 	padding:1.5em;
