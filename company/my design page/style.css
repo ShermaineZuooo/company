@@ -230,7 +230,6 @@ input[type=submit]:hover {
   width: 80%;
   height: 80%;
   position: flex;
- 
   transition: all 0.3s ease;
 }
  
