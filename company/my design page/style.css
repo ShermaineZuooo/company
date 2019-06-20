@@ -532,9 +532,19 @@ margin-left: -160px;
  color:rgb(177, 212, 144);
 }
 */
-.
-.abaddress{
+.list{
   border:0.6px solid rgb(175, 166, 166);
+  margin-left: 30px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  width:600px;
+}
+.sbaddress{
+  border:0.6px solid rgb(175, 166, 166);
+  margin-left: 30px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  width:600px;
 }
 .payment{
   border:0.6px solid rgb(175, 166, 166);
