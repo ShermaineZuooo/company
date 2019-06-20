@@ -126,9 +126,9 @@ footer{
 	height: 200%;
   padding-left: 5%;
   padding-right: 5%;
-  text-decoration: none;
+ 
 }
-category a{
+category a:link{
   color: white;
   text-decoration: none;
 }
