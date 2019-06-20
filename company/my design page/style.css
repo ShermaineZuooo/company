@@ -504,6 +504,16 @@ margin-left: -200px;
   opacity: 0.7;
 }
 
+.sbaddress{
+  border:0.6px solid rgb(175, 166, 166);
+  margin-left: 45px;
+  padding-left: 15px;
+}
+
+.sbaddress contact{
+  display: block;
+
+}
 /* Responsive */
 @media (max-width: 940px) {
   .details {
