@@ -209,7 +209,8 @@ input[type=submit]:hover {
 .details {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 15px;
+  
+  
   display: flex;
 }
 /* Columns */
