@@ -126,7 +126,25 @@ footer{
 	height: 200%;
   padding-left: 5%;
   padding-right: 5%;
+ 
 }
+category a:link{
+  color: white;
+  text-decoration: none;
+}
+category a:visted{
+  color: white;
+  text-decoration: none;
+}
+category a:active{
+  color: white;
+  text-decoration: none;
+}
+category a:hover{
+  color: white;
+  text-decoration: none;
+}
+
 .list{
   position: flex;
 }
@@ -225,8 +243,6 @@ input[type=submit]:hover {
 .details {
   max-width: 1200px;
   margin: 0 auto;
-  
-  
   display: flex;
 }
 /* Columns */
@@ -289,7 +305,7 @@ input[type=submit]:hover {
  
 .cart-btn {
   display: inline-block;
-  background-color: #7DC855;
+  background-color: rgb(177, 212, 144);
   border-radius: 6px;
   font-size: 14px;
   color: #FFFFFF;
@@ -298,7 +314,8 @@ input[type=submit]:hover {
   transition: all .5s;
 }
 .cart-btn:hover {
-  background-color: #64af3d;
+  
+  opacity: 50%;
 }
 
 
