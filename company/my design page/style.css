@@ -412,7 +412,7 @@ input[type=submit]:hover {
   margin-bottom:5%;
   border:0.6px solid rgb(175, 166, 166);
   margin-left:5%;
-  min-width: 650px;
+  width: 650px;
 }
 .list h1{
   margin-left:5%;
@@ -491,10 +491,10 @@ margin-left: -160px;
   border:0.6px solid rgb(175, 166, 166);
   position: relative;
   width:300px;
-  margin-left:1000px;
+  margin-left:800px;
   padding-left:2%;
-  margin-top:-345px;
-  margin-bottom:150px;
+  margin-top:-370px;
+  margin-bottom:100px;
 }
 
 .checkout{
