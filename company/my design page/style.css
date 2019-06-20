@@ -406,7 +406,7 @@ input[type=submit]:hover {
 .bag-container{
 	display:flex;
   margin-bottom:5%;
-  border:0.4px solid #555;
+   border:0.6px solid rgb(175, 166, 166);
   margin-left:5%;
   min-width: 550px;
 }
@@ -483,7 +483,15 @@ margin-left: -200px;
 .remove-item button:hover{
   opacity: 0.7;
 }
-
+.total{
+  border:0.6px solid rgb(175, 166, 166);
+  position: relative;
+  width:300px;
+  margin-left:1000px;
+  padding-left:2%;
+  margin-top:-345px;
+  margin-bottom:150px;
+}
 /*check out*/
 .checkout{
   margin-top:245px;
@@ -566,6 +574,7 @@ margin-left: -200px;
   border-top: 1px solid rgb(177, 212, 144);
 
 }
+
 
 /* Responsive */
 @media (max-width: 940px) {
