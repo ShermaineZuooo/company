@@ -528,7 +528,12 @@ margin-left: -200px;
 .payment h3{
   color:rgb(177, 212, 144);
 }
-
+.summary{
+  border:0.6px solid rgb(175, 166, 166);
+  display:float;
+  width:300px;
+  margin-left:700px;
+}
 
 /* Responsive */
 @media (max-width: 940px) {
