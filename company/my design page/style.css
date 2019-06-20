@@ -509,11 +509,6 @@ margin-left: -200px;
   margin-left: 45px;
   padding-left: 15px;
 }
-
-.sbaddress contact{
-  display: block;
-
-}
 /* Responsive */
 @media (max-width: 940px) {
   .details {
