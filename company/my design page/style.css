@@ -374,5 +374,9 @@ input[type=submit]:hover {
     font-size: 48px;
 }
 
+.about img{
+  text-align: center;
+}
+
 	
 >>>>>>> master
