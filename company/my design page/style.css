@@ -401,6 +401,7 @@ input[type=submit]:hover {
     font-size: 48px;
 }
 
+/*shopping bag*/
 
 .bag-container{
 	display:flex;
@@ -482,6 +483,8 @@ margin-left: -200px;
 .remove-item button:hover{
   opacity: 0.7;
 }
+
+/*check out*/
 .checkout{
   margin-top:245px;
   margin-left: 20px;
@@ -509,7 +512,7 @@ margin-left: -200px;
   margin-left: 30px;
   margin-bottom: 20px;
   padding-left: 15px;
-  width:500px;
+  width:600px;
 }
 .sbaddress h3{
  color:rgb(177, 212, 144);
@@ -519,15 +522,13 @@ margin-left: -200px;
   border:0.6px solid rgb(175, 166, 166);
   margin-left: 30px;
   padding-left: 15px;
-  width:500px;
+  width:600px;
 }
 
 .payment h3{
   color:rgb(177, 212, 144);
 }
-.payment cvv{
-  display: inline-block;
-}
+
 
 /* Responsive */
 @media (max-width: 940px) {
