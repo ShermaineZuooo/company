@@ -318,7 +318,9 @@ input[type=submit]:hover {
   opacity: 50%;
 }
 
-
+.about{
+  padding-bottom: 5%;
+}
 .about img{
   	text-align:center;
 
