@@ -432,6 +432,14 @@ input[type=submit]:hover {
   letter-spacing: -2px;
   line-height: 1px;
 }
+.product-detail p{
+  margin-left: 3%;
+  max-width: 380px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #86939E;
+  line-height: 24px;
+}
 
 .bag-item{
 	padding-left:3px;
