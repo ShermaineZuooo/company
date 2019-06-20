@@ -392,6 +392,41 @@ input[type=submit]:hover {
     font-size: 48px;
 }
 
+.bag-container{
+	display:flex;
+  margin-bottom:5%;
+
+}
+
+.bag-item{
+	margin-left: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  text-align: center;
+  font-family: arial;
+}
+
+.bag-item button{
+	border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.bag-item button:hover{
+  opacity: 0.7;
+}
+
+.bag-item p{
+	background-color:#fff;
+	margin:0;
+	padding:1em 0.5em;
+}
+
 
 	
 >>>>>>> master
