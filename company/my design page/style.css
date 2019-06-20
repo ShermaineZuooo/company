@@ -375,7 +375,6 @@ input[type=submit]:hover {
 }
 
 .about img{
-  display:flex;
   text-align: center;
 }
 .about p{
