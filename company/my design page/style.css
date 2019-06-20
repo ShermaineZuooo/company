@@ -405,7 +405,7 @@ input[type=submit]:hover {
 .bag-container{
 	display:flex;
   margin-bottom:5%;
-  border:0.5px solid rgb(8, 1, 1);
+  border:0.4px solid #555;
   margin-left:5%;
   min-width: 550px;
 }
