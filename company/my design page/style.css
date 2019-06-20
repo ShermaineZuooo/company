@@ -295,6 +295,18 @@ input[type=submit]:hover {
   background-color: #64af3d;
 }
 
+
+.about img{
+  text-align: center;
+}
+.about p{
+  text-align: center;
+}
+
+.about h1{
+   text-align: center;
+}
+
 #contacts {
     width: 1600px;
     height: 700px;
@@ -374,16 +386,6 @@ input[type=submit]:hover {
     font-size: 48px;
 }
 
-.about img{
-  text-align: center;
-}
-.about p{
-  text-align: center;
-}
-
-.about h1{
-   text-align: center;
-}
 
 	
 >>>>>>> master
