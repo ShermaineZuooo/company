@@ -520,9 +520,9 @@ margin-left: -160px;
   border-top: 1px solid rgb(177, 212, 144);
 }
 ./*check out*/
-
+/*
 .sbaddress{
-  border:0.6px solid rgb(175, 166, 166);
+  border:0.6px solid red;
   margin-left: 30px;
   margin-bottom: 20px;
   padding-left: 15px;
@@ -531,7 +531,11 @@ margin-left: -160px;
 .sbaddress h3{
  color:rgb(177, 212, 144);
 }
-
+*/
+.
+.abaddress{
+  border:0.6px solid rgb(175, 166, 166);
+}
 .payment{
   border:0.6px solid rgb(175, 166, 166);
   margin-left: 30px;
