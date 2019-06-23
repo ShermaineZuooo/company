@@ -631,7 +631,8 @@ color:rgb(177, 212, 144);
   }
 @media (min-width: 30em){
 .product-item{
-order:2;
+  
+flex-direction: column;
 }
 
 }
