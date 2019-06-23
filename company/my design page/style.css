@@ -629,7 +629,14 @@ color:rgb(177, 212, 144);
     width: 220px;
     top: -85px;
   }
+@media (min-width: 30em){
+.product-item{
+order:2;
 }
+
+}
+
+
 
 	
 >>>>>>> master
