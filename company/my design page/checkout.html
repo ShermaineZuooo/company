@@ -6,9 +6,10 @@
   <link rel="stylesheet" href = "shop.css">
   <link rel="stylesheet" href = "style.css">
 
-  <script>
-
-  </script>
+   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/website.js"></script>
  </head>
  <body>
    <div class ="bag">
@@ -17,9 +18,9 @@
   <header class="logo"><img src="img/mylogo.png" alt="natureskin" width="150"></header>
   <!--<buttion type="button" onclick="hello('good man')">click me</buttion>-->
 
-    	
-		<div class="row" >
+     <div class="row" >
           <nav>
+		  <a href="#home" class="active">Menu</a>
           <ul>
             <li><a href="mainpage.html">HOME</a></li>
 		      	<li><a href="shop all.html">SHOP</a></li>
@@ -27,6 +28,10 @@
             <li><a href="aboutus.html">ABOUT</a></li>
             <li><a href="contact.html">CONTACT</a></li>
           </ul>
+		   <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+		  <a href="javascript:void(0);" class="icon" onclick="showMainMenu()">
+			<i class="fa fa-bars"></i>
+		  </a>
         </nav>
       </div>
 <div class="shoppage">
