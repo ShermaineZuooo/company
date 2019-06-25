@@ -6,7 +6,7 @@
 
 body{
 	background-color:#fff;
-	
+	max-width:1200px;
 	margin:auto;
 	font-family:STKaiti, serif;
 	color:black;
@@ -113,45 +113,56 @@ footer{
 	
 }
 
+
 .shoppage{
   display: flex;
+  justify-content:space-evenly;
 }
+
 .category{
-  position: obsolute;
 	background-color: #B7BE78;
 	color:white;
 	padding:1.5em;
 	max-width: 15%;
 	margin-top:1.5em;
 	height: 200%;
-  padding-left: 5%;
-  padding-right: 5%;
- 
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.category div{
+	margin:1em 0;
 }
 .category a{
   color: white;
   text-decoration: none;
 }
 
+/*
 .list{
   position: flex;
-}
+}*/
+
 .list h1{
   margin-left: 10%;
   margin-bottom:5%;
 }
 .product-container{
 	display:flex;
-  margin-bottom:5%;
+	justify-content:space-evenly;
+    margin-bottom:5%;
 
 }
 
 .product-item{
-	margin-left: 10%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
+  margin:0 2%;
   text-align: center;
   font-family: arial;
+}
+
+.product-item img{
+	width:70%;
 }
 
 .product-item button{
@@ -536,13 +547,15 @@ margin-left: -160px;
  color:rgb(177, 212, 144);
 }
 */
+
+/*
 .list{
   border:0.6px solid rgb(175, 166, 166);
   margin-left: 20px;
   margin-bottom: 20px;
   padding-left: 15px;
   width:600px;
-}
+}*/
 
 .sbaddress{
   border:0.6px solid rgb(175, 166, 166);
@@ -603,8 +616,7 @@ color:rgb(177, 212, 144);
 
 }
 
-
-/* Responsive */
+/*
 @media (max-width: 940px) {
   .details {
     flex-direction: column;
@@ -622,18 +634,99 @@ color:rgb(177, 212, 144);
     top: -65px;
     left: initial;
   }
-}
- 
+}*/
+ /*
 @media (max-width: 535px) {
   .left-column img {
     width: 220px;
     top: -85px;
-  }
-@media (min-width: 30em){
-.product-item{
-  
-flex-direction: column;
-}
+  }*/
+@media (max-width: 30em){
+	.shoppage{
+	  flex-direction: column;
+	}
+	
+	.category{
+		background-color: #B7BE78;
+		color:white;
+		max-width: 100%;
+	}
+	
+	.category{
+		display:flex;
+		padding:0;
+		justify-content:space-evenly;
+	}
+	
+	.category h4{
+		display:none;
+	}
+
+	.product-container{
+	  flex-direction: column;
+	}
+	
+	.product-item{
+	   max-width: 100%;
+	}
+	
+	
+	/* Style the navigation menu */
+	nav {
+	  overflow: hidden;
+	  background-color: #333;
+	  position: relative;
+	}
+	
+
+	/* Hide the links inside the navigation menu (except for logo/home) */
+	nav ul {
+	  display: none;
+	  margin:0;
+	  padding:0;
+	}
+	
+	nav li{
+		display:block;
+		font-weight:bold;
+		text-align:left;
+		padding:0;
+		margin:0;
+	}
+	
+	nav li a{
+		color:white;
+	}
+
+	/* Style navigation menu links */
+	nav a {
+	  color: white;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	  display: block;
+	}
+
+	/* Style the hamburger menu */
+	nav a.icon {
+	  background: black;
+	  display: block;
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
+
+	/* Add a grey background color on mouse-over */
+	nav a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
+
+	/* Style the active link (or home/logo) */
+	nav li.active {
+	  background-color: #4CAF50;
+	  color: white;
+	} 
 
 }
 
