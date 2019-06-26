@@ -412,7 +412,7 @@ input[type=submit]:hover {
     font-size: 48px;
 }
 .login{
-  position: absolute;
+  position: flex;
   margin-left:90%;
   margin-top:3.8%;
 }
