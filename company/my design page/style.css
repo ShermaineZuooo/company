@@ -623,7 +623,7 @@ color:rgb(177, 212, 144);
 .active, icon{
   display: none;
 }
-i{
+.menuicon{
   display: none;
 }
 
@@ -745,7 +745,7 @@ i{
  .active, icon{
   display: block;
 }
-i{
+.menuicon{
   display: block;
 }
 }
