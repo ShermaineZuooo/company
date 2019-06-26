@@ -107,8 +107,8 @@ footer{
   position: absolute;
   top: 50%;
   left: 25%;
- color:white;
- font-size:3em;
+  color:white;
+  font-size:40px;
   transform: translate(-50%, -50%);
 	
 }
@@ -743,7 +743,6 @@ color:rgb(177, 212, 144);
 	  position: absolute;
 	  right: 0;
 	  top: 0;
-
 	}
   
 
@@ -771,7 +770,6 @@ color:rgb(177, 212, 144);
 .centered{
   font-size:1em;
 }
-
 
 .left-col{
   flex-direction: column;
