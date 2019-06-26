@@ -771,6 +771,11 @@ color:rgb(177, 212, 144);
 .centered{
   font-size:1em;
 }
+
+
+.left-col{
+  flex-direction: column;
+}
 }
 
 
