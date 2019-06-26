@@ -420,6 +420,7 @@ input[type=submit]:hover {
 
 .bag-container{
 	display:flex;
+  flex-direction: row;
   margin-bottom:5%;
   border:0.6px solid rgb(175, 166, 166);
   margin-left:5%;
