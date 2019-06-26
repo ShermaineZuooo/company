@@ -334,8 +334,6 @@ input[type=submit]:hover {
 }
 
 #contacts {
-    width: 1600px;
-    height: 700px;
     margin: 0 auto;
      font-family: 'Montserrat', sans-serif;
 }
@@ -756,7 +754,7 @@ color:rgb(177, 212, 144);
 }
 
 #contacts>div{
-  flex-direction:colum;
+  flex-direction: column;
 }
 .centered{
   font-size:1em;
