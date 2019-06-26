@@ -635,6 +635,8 @@ color:rgb(177, 212, 144);
 }
 .menuicon{
   display: none;
+  z-index: 10;
+}
 }
 .topbar{
  padding-top: 30%;
@@ -763,6 +765,8 @@ color:rgb(177, 212, 144);
 }
 .menuicon{
   display: block;
+  z-index: 10;
+}
 }
 
 #contacts>div{
