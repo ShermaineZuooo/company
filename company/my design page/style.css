@@ -72,6 +72,13 @@ footer{
  padding-right:5%;
  
 }
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
  
 
 
@@ -770,9 +777,15 @@ color:rgb(177, 212, 144);
   z-index: 20;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
+=======
+=======
+
+
+>>>>>>> master
 >>>>>>> master
 #contacts>div{
   flex-direction: column;
