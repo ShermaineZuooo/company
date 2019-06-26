@@ -626,6 +626,11 @@ color:rgb(177, 212, 144);
 .menuicon{
   display: none;
 }
+.topbar{
+ padding-top: 30%;
+ padding-right: 5%;
+ display: inline-block;
+}
 
 /*
 @media (max-width: 940px) {
