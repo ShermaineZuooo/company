@@ -754,6 +754,13 @@ color:rgb(177, 212, 144);
 .menuicon{
   display: block;
 }
+
+#contacts>div{
+  flex-direction:colum;
+}
+.centered{
+  font-size:1em;
+}
 }
 
 
