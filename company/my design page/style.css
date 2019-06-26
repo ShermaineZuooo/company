@@ -618,6 +618,9 @@ color:rgb(177, 212, 144);
 .active, icon{
   display: none;
 }
+.fa fa-bars{
+  display: none;
+}
 
 /*
 @media (max-width: 940px) {
@@ -735,6 +738,9 @@ color:rgb(177, 212, 144);
 	  color: white;
 	} 
  .active, icon{
+  display: block;
+}
+.fa fa-bars{
   display: block;
 }
 }
