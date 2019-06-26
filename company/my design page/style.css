@@ -615,7 +615,7 @@ color:rgb(177, 212, 144);
   border-top: 1px solid rgb(177, 212, 144);
 
 }
-.active icon{
+.active, icon{
   display: none;
 }
 
@@ -734,7 +734,7 @@ color:rgb(177, 212, 144);
 	  background-color: #4CAF50;
 	  color: white;
 	} 
- .active icon{
+ .active, icon{
   display: block;
 }
 }
