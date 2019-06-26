@@ -499,6 +499,10 @@ margin-left: -160px;
 .remove-item button:hover{
   opacity: 0.7;
 }
+.left-col{
+  display:flex;
+  flex-direction: column;
+}
 .total{
   border:0.6px solid rgb(175, 166, 166);
   position: relative;
