@@ -412,9 +412,9 @@ input[type=submit]:hover {
     font-size: 48px;
 }
 .login{
-  position: absolute;
-  margin-left:90%;
-  margin-top:3.8%;
+  position: flex;
+  margin-left:94%;
+  margin-top:3.5%;
 }
 /*shopping bag*/
 
@@ -636,6 +636,12 @@ color:rgb(177, 212, 144);
 .menuicon{
   display: none;
 }
+.topbar{
+ padding-top: 30%;
+ padding-right: 5%;
+ display: inline-block;
+ 
+}
 
 /*
 @media (max-width: 940px) {
@@ -757,6 +763,13 @@ color:rgb(177, 212, 144);
 }
 .menuicon{
   display: block;
+}
+
+#contacts>div{
+  flex-direction:colum;
+}
+.centered{
+  font-size:1em;
 }
 }
 
