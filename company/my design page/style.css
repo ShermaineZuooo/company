@@ -619,7 +619,7 @@ color:rgb(177, 212, 144);
 .active, icon{
   display: none;
 }
-.fa_fa-bars{
+.fa-bars{
   display: none;
 }
 
@@ -741,7 +741,7 @@ color:rgb(177, 212, 144);
  .active, icon{
   display: block;
 }
-.fa_fa-bars{
+.fa-bars{
   display: block;
 }
 }
