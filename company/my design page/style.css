@@ -425,6 +425,7 @@ input[type=submit]:hover {
   border:0.6px solid rgb(175, 166, 166);
   margin-left:5%;
   width: 70%;
+  
 }
 .list h1{
   margin-left:5%;
@@ -432,55 +433,64 @@ input[type=submit]:hover {
 }
 
 .product-detail h2{
-  margin-left: 3%;
+  margin-left: 5%;
   font-size: 12px;
   color: #358ED7;
   letter-spacing: 1px;
   text-transform: uppercase;
   text-decoration: none;
-  line-height: 0.8px;
-  padding-top: 8%;
+  padding-top: 3%;
   
 }
 
 .product-detail h3{
-  margin-left: 3%;
+  margin-left: 5%;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 170%;
   color: #43484D;
-  letter-spacing: -2px;
   line-height: 1px;
+   margin-top:3%;
 }
 .product-detail h4{
-  margin-left: 3%;
-  font-weight: 300;
+  margin-left: 5%;
+  font-weight: 100%;
   font-size: 150%;
   color: #43484D;
-  letter-spacing: -2px;
-  line-height: 1px;
+  letter-spacing: -1px;
+  line-height: 3%;
+  margin-top:0%;
 }
 .product-detail p{
-  margin-left: 3%;
+  margin-left: 5%;
   font-size: 16px;
   font-weight: 300;
   color: #86939E;
-  line-height: 24px;
+  line-height: 130%;
+  max-width:80%;
+   margin-top:0%;
+  
+  
 }
-
+.product-detail{
+  display:flex;
+  flex-direction: column;
+}
 .bag-item{
-	padding-left:3px;
-  padding-top:3px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
   font-family: arial;
-  width:100%;
+  width:90%;
+  
   
 }
 .bag-item img{
-   width:100%;
+   width:90%;
+   margin: 5px;
 }
 .remove-item{
-margin-top:230px;
+margin-left:5%;
+margin-top: 5%;
+max-width: 80%;
 
 }
 .remove-item button{
@@ -506,7 +516,7 @@ margin-top:230px;
 }
 .total{
   border:0.6px solid rgb(175, 166, 166);
-  width:30%;
+  width:25%;
   margin-left:80%;
   padding-left:2%;
   margin-top:-350px;
