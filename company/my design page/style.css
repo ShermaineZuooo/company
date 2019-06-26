@@ -424,7 +424,7 @@ input[type=submit]:hover {
   margin-bottom:5%;
   border:0.6px solid rgb(175, 166, 166);
   margin-left:5%;
-  width: 650px;
+  width: 70%;
 }
 .list h1{
   margin-left:5%;
@@ -461,7 +461,7 @@ input[type=submit]:hover {
 }
 .product-detail p{
   margin-left: 3%;
-  max-width: 380px;
+  max-width: 60%;
   font-size: 16px;
   font-weight: 300;
   color: #86939E;
@@ -474,14 +474,15 @@ input[type=submit]:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
   font-family: arial;
+  width:40%;
   
 }
 .bag-item img{
-  width: 280px;
+   width:100%;
 }
 .remove-item{
 margin-top:230px;
-margin-left: -160px;
+
 }
 .remove-item button{
 	border-radius: 15px;
@@ -499,13 +500,17 @@ margin-left: -160px;
 .remove-item button:hover{
   opacity: 0.7;
 }
+.left-col{
+  display:flex;
+  flex-direction: row;
+  align-items:left;
+}
 .total{
   border:0.6px solid rgb(175, 166, 166);
-  position: relative;
-  width:300px;
-  margin-left:800px;
+  width:30%;
+  margin-left:80%;
   padding-left:2%;
-  margin-top:-370px;
+  margin-top:-350px;
   margin-bottom:100px;
 }
 
