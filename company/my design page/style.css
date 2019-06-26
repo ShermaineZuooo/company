@@ -615,6 +615,9 @@ color:rgb(177, 212, 144);
   border-top: 1px solid rgb(177, 212, 144);
 
 }
+.active icon{
+  display: none;
+}
 
 /*
 @media (max-width: 940px) {
@@ -642,6 +645,8 @@ color:rgb(177, 212, 144);
     top: -85px;
   }*/
 @media (max-width: 30em){
+
+ 
 	.shoppage{
 	  flex-direction: column;
 	}
@@ -714,7 +719,9 @@ color:rgb(177, 212, 144);
 	  position: absolute;
 	  right: 0;
 	  top: 0;
+
 	}
+  
 
 	/* Add a grey background color on mouse-over */
 	nav a:hover {
@@ -727,7 +734,9 @@ color:rgb(177, 212, 144);
 	  background-color: #4CAF50;
 	  color: white;
 	} 
-
+ .active icon{
+  display: block;
+}
 }
 
 
