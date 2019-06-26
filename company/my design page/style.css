@@ -79,19 +79,20 @@ footer{
 .container {
   position: flex;
   width: 100%;
+  display: block;
 }
 
 /* Make the image responsive */
 .container img {
   width: 100%;
   height: auto;
+  z-index:1;
 }
 
 /* Style the button and place it in the middle of the container/image */
 .container .btn {
   position: flex;
-
-  
+  z-index: 3;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555;
@@ -108,10 +109,11 @@ footer{
   flex-direction: row;
   top: 50%;
   left: 25%;
-  z-index: 10
+  z-index: 2;
  color:white;
  font-size:40px;
   transform: translate(-50%, -50%);
+
 	
 }
 
