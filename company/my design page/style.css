@@ -77,22 +77,21 @@ footer{
 
 /* Container needed to position the button. Adjust the width as needed */
 .container {
-  position: flex;
+  position: relative;
   width: 100%;
-  display: block;
 }
 
 /* Make the image responsive */
 .container img {
   width: 100%;
   height: auto;
-  z-index:1;
 }
 
 /* Style the button and place it in the middle of the container/image */
 .container .btn {
-  position: flex;
-  z-index: 3;
+  position: absolute;
+  top: 60%;
+  left: 25%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555;
@@ -105,15 +104,12 @@ footer{
 }
 
 .centered {
-  position: flex;
-  flex-direction: row;
+  position: absolute;
   top: 50%;
   left: 25%;
-  z-index: 2;
  color:white;
  font-size:40px;
   transform: translate(-50%, -50%);
-
 	
 }
 
