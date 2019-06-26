@@ -104,7 +104,8 @@ footer{
 }
 
 .centered {
-  position: absolute;
+  position: flex;
+  flex-direction: row;
   top: 50%;
   left: 25%;
  color:white;
