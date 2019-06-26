@@ -765,8 +765,6 @@ color:rgb(177, 212, 144);
   display: block;
   z-index: 20;
 }
-}
-
 #contacts>div{
   flex-direction: column;
 }
@@ -774,6 +772,8 @@ color:rgb(177, 212, 144);
   font-size:1em;
 }
 }
+
+
 
 
 
