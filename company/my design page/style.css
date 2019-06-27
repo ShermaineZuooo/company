@@ -214,6 +214,10 @@ footer {
 .sale {
     color: red;
 }
+.poster img{
+    width: 100%;
+    height: 80%;
+}
 
 .container .btn:hover {
     background-color: black;
@@ -871,6 +875,10 @@ table {
         position: flex;
 
     }
+
+.prolist{
+    width:100%;
+}
 
 
 }
