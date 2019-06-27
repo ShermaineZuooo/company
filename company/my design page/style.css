@@ -214,9 +214,10 @@ footer {
 .sale{
     color:red;
 }
-.poster{
+.poster img{
     width: 100%;
 }
+
 .container .btn:hover {
     background-color: black;
 }
