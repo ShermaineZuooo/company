@@ -631,7 +631,10 @@ table{
 }
 */
 
-
+.sp-container{
+    display: flex;
+    flex-direction: 
+}
 /*
 .list{
   border:0.6px solid rgb(175, 166, 166);
