@@ -760,13 +760,11 @@ table {
         background-color: #B7BE78;
         color: white;
         max-width: 100%;
-    }
-
-    .category {
         display: flex;
         padding: 0;
         justify-content: space-evenly;
     }
+
 
     .category h4 {
         display: none;
@@ -774,6 +772,7 @@ table {
 
     .product-container {
         flex-direction: column;
+
     }
 
     .product-item {
