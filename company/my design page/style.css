@@ -451,6 +451,24 @@ input[type=submit]:hover {
     margin-left: 90%;
     margin-top: 3.8%;
 }
+/*
+empty bag
+*/
+.bag-container p{
+    font-size: 20px;
+    position: relative;
+    margin-top: -24px;
+    margin-left: 30px;
+    color: black;
+
+}
+.bag-container a{
+text-decoration: none;
+}
+.bag-container h3{
+ font-size: 30px;
+ color:green;
+}
 
 
 /*shopping bag*/
@@ -667,6 +685,7 @@ table {
     border-radius: 12px;
     transition-timing-function: ease-in;
 }
+
 
 
 
