@@ -166,6 +166,7 @@ footer {
     margin: 0 2%;
     text-align: center;
     font-family: arial;
+    padding-bottom: 0;
 
 }
 
@@ -177,12 +178,14 @@ footer {
     border: none;
     outline: 0;
     padding: 12px;
+   
     color: white;
     background-color: #000;
     text-align: center;
     cursor: pointer;
     width: 100%;
     font-size: 18px;
+
 }
 
 .product-item button:hover {
@@ -499,6 +502,7 @@ text-decoration: none;
     display: flex;
     border: 0.6px solid rgb(175, 166, 166);
     margin-bottom: 20px;
+    margin-top: 0;
 
 
 }
@@ -506,13 +510,13 @@ text-decoration: none;
 .bag-container {
     display: flex;
     flex-direction: column;
-    margin-bottom: 15%;
+  
 
 }
 
 h1 {
     margin-left: 5%;
-    margin-bottom: 2%;
+    margin-bottom: 0;
 }
 
 .product-detail h2 {
@@ -594,6 +598,7 @@ h1 {
     width: 70%;
     padding: 2%;
     height: 250px;
+
 }
 
 
