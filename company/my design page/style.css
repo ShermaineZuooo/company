@@ -224,14 +224,14 @@ footer {
 }
 
 .about img {
-    text-align: center;
+   
     display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
-.about h1 p {
+/*.about h1 p {
     text-align: center;
 }
 /* end about page*/
@@ -741,10 +741,7 @@ table{
     display: none;
 }
 
-.menuicon {
-    display: none;
-    z-index: 10;
-}
+
 
 
 .active,
