@@ -80,6 +80,12 @@ footer{
   text-align: center;
 }
  
+ .social{
+  display: flex;
+ padding-right:5%;
+ padding-left:5%;
+
+ }
 
 
 /* Container needed to position the button. Adjust the width as needed */
