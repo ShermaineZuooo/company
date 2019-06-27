@@ -1,4 +1,4 @@
-<<<<<<< HEAD=======*,
+
 *::after,
 *::before {
     box-sizing: border-box;
@@ -218,7 +218,7 @@ footer {
 .sale {
     color: red;
 }
-<<<<<<< HEAD
+
 .poster{
     width: 100%;
 
@@ -227,8 +227,7 @@ footer {
     width: 100%;
     height: 80%;
 }
-=======
->>>>>>> master
+
 
 .container .btn:hover {
     background-color: black;
@@ -325,7 +324,7 @@ input[type=submit]:hover {
 .left-column img {
     width: 80%;
     height: 80%;
-    position: flex;
+   /*position: fixed;*/
     transition: all 0.3s ease;
 }
 
@@ -552,7 +551,7 @@ h1 {
 
 .product-detail h4 {
     margin-left: 5%;
-    font-weight: 100%;
+    /*font-weight: 100%;*/
     font-size: 150%;
     color: #43484D;
   
@@ -872,7 +871,7 @@ table {
 
     .left-column {
         width: 90%;
-        position: flex;
+       /* position: flex;*/
     }
 
     .right-column {
@@ -882,11 +881,10 @@ table {
     .left-column img {
         width: 100%;
         height: auto;
-        position: flex;
+        /*position: flex;*/
 
     }
 
-<<<<<<< HEAD
     .about {
 
         padding:2%;
@@ -907,14 +905,9 @@ table {
         width: 100%;
     }
 
-=======
->>>>>>> master
+
 
 }
 
 
 
-
-
-
->>>>>>>master
