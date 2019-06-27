@@ -643,16 +643,16 @@ table{
 
 .sbaddress {
     border: 0.6px solid rgb(175, 166, 166);
-    margin-left: 50px;
     margin-bottom: 20px;
+    margin-left:55px;
     padding-left: 15px;
-    width: 600px;
+    width: 180%;
 }
 .payment {
     border: 0.6px solid rgb(175, 166, 166);
     margin-left: 50px;
     padding-left: 15px;
-    width: 600px;
+    width: 180%;
 }
 
 .payment h3 {
@@ -663,7 +663,16 @@ table{
     color: rgb(177, 212, 144);
 }
 
-
+.summary {
+    border: 0.6px solid rgb(175, 166, 166);
+    margin-left: 400px;
+    padding-left: 15px;
+    width: 30%;
+    height: 40%
+}
+.summary h3{
+    color: rgb(177, 212, 144);
+}
 /*
 .list{
   border:0.6px solid rgb(175, 166, 166);
