@@ -55,7 +55,6 @@ figure {
 }
 
 footer {
-
     color: rgb(8, 1, 1);
     margin: 0.2em auto 0px auto;
     padding-top: 2em;
@@ -107,7 +106,7 @@ footer {
 
 .container .btn {
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 25%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -118,6 +117,8 @@ footer {
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    font-size:0.8em;
+
 }
 
 .centered {
@@ -134,7 +135,6 @@ footer {
     display: flex;
     justify-content: space-evenly;
 }
-
 
 .category {
     background-color: #B7BE78;
@@ -375,32 +375,32 @@ input[type=submit]:hover {
     text-align: center;
 }
 
+
+/*contact page begin from here*/
 #contacts {
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
 }
 
 #contacts>div {
-    width: 960px;
-    height: 700px;
+    width: 100%;
+   
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-bottom:2em;
+    /*border:1px solid green;*/
 }
 
-#contacts>div>div {
-    width: 470px;
-    height: 560px;
-    margin-top: 70px;
-}
-
-#contacts>div>div:first-child {
-    border: 1px solid rgb(200, 200, 200);
-    border-radius: 10px;
+#contacts>div>div{
+    padding:1em;
+    border:2px solid #aaa;
+    border-radius:10px;
+    margin:1% 1%;
 }
 
 #contacts input {
-    width: 370px;
+    width: 100%;
     border-radius: 5px;
     border: 1px solid rgb(200, 200, 200);
 }
@@ -408,7 +408,7 @@ input[type=submit]:hover {
 #fell {
     text-align: center;
     vertical-align: middle;
-    width: 370px;
+    width: 100%;
     height: 110px;
     line-height: 110px;
     margin: 0 auto;
@@ -417,40 +417,43 @@ input[type=submit]:hover {
 
 #email {
     height: 50px;
-    margin-left: 50px;
 }
 
 #subject {
     height: 50px;
     margin-top: 30px;
-    margin-left: 50px;
 }
 
 #message {
     margin-top: 30px;
-    margin-left: 50px;
     height: 140px;
 }
 
 #send {
     height: 50px;
     margin-top: 30px;
-    margin-left: 50px;
     background-color: #50a554;
     color: #ffffff;
 }
 
-#con {
-    text-align: left;
-    width: 360px;
-    height: 370px;
-    margin-top: 80px;
-    margin-left: 90px;
+
+
+/*
+#contacts>div>div:first-child {
+    width: 50%;
+    margin-top: 70px;
+    border:1px solid red;
 }
 
-#con p:first-child {
-    font-size: 48px;
+#contacts>div>div:first-child {
+    width: 50%;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 10px;
 }
+
+
+
+*/
 
 .login {
     position: absolute;
@@ -631,48 +634,7 @@ table{
 }
 */
 
-.list{
-    display: flex;
-    flex-direction: row;
-    
-}
-.sp-container{
-    display: flex;
-    flex-direction: column;
-}
 
-.sbaddress {
-    border: 0.6px solid rgb(175, 166, 166);
-    margin-bottom: 20px;
-    margin-left:55px;
-    padding-left: 15px;
-    width: 180%;
-}
-.payment {
-    border: 0.6px solid rgb(175, 166, 166);
-    margin-left: 50px;
-    padding-left: 15px;
-    width: 180%;
-}
-
-.payment h3 {
-    color: rgb(177, 212, 144);
-}
-
-.sbaddress h3 {
-    color: rgb(177, 212, 144);
-}
-
-.summary {
-    border: 0.6px solid rgb(175, 166, 166);
-    margin-left: 400px;
-    padding-left: 15px;
-    width: 30%;
-    height: 40%
-}
-.summary h3{
-    color: rgb(177, 212, 144);
-}
 /*
 .list{
   border:0.6px solid rgb(175, 166, 166);
@@ -681,7 +643,7 @@ table{
   padding-left: 15px;
   width:600px;
 }*/
-/*
+
 .sbaddress {
     border: 0.6px solid rgb(175, 166, 166);
     margin-left: 50px;
@@ -694,10 +656,49 @@ table{
     color: rgb(177, 212, 144);
 }
 
+.payment {
+    border: 0.6px solid rgb(175, 166, 166);
+    margin-left: 50px;
+    padding-left: 15px;
+    width: 600px;
+}
 
+.payment h3 {
+    color: rgb(177, 212, 144);
+}
 
+.summary {
+    border: 0.6px solid rgb(175, 166, 166);
+    position: relative;
+    width: 300px;
+    margin-left: 700px;
+    padding-left: 2%;
+    margin-top: -655px;
+    margin-bottom: 450px;
+}
 
+.summary h3 {
+    color: rgb(177, 212, 144);
+}
 
+.summary button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(177, 212, 144);
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    font-size: 18px;
+    margin-left: 50%;
+    border-radius: 12px;
+    transition-timing-function: ease-in;
+}
+
+.summary button:hover {
+    opacity: 0.7;
+}
 
 .summary hr {
     width: 85%;
@@ -706,7 +707,11 @@ table{
     border-top: 1px solid rgb(177, 212, 144);
 }
 
-*/
+.menuicon {
+    display: none;
+    z-index: 10;
+}
+
 
 .active,
 .icon {
@@ -837,6 +842,9 @@ table{
     }
 
 
+    .menuicon {
+        display: none;
+    }
 
     #contacts>div {
         flex-direction: column;
@@ -858,10 +866,7 @@ table{
         margin-left: 0;
         margin-top: 0;
     }
-
-
-
- .details {
+    .details {
     max-width: 100%;
     margin: 0 auto;
     display: block;
@@ -947,10 +952,6 @@ table{
     transition: all .5s;
 }
 
-.cart-btn:hover {
-
-    opacity: 50%;
-}
 
 
 }
