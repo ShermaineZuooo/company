@@ -620,29 +620,7 @@ table{
 .
 /*check out*/
 
-
 /*
-.sbaddress{
-  border:0.6px solid red;
-  margin-left: 30px;
-  margin-bottom: 20px;
-  padding-left: 15px;
-  width:600px;
-}
-.sbaddress h3{
- color:rgb(177, 212, 144);
-}
-*/
-
-
-/*
-.list{
-  border:0.6px solid rgb(175, 166, 166);
-  margin-left: 20px;
-  margin-bottom: 20px;
-  padding-left: 15px;
-  width:600px;
-}*/
 
 .sbaddress {
     border: 0.6px solid rgb(175, 166, 166);
@@ -706,6 +684,7 @@ table{
     margin-top: 10px;
     border-top: 1px solid rgb(177, 212, 144);
 }
+*/
 
 .menuicon {
     display: none;
