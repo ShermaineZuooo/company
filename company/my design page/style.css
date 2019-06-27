@@ -720,9 +720,9 @@ table{
 
 .summary {
     border: 0.6px solid rgb(175, 166, 166);
-    margin-left: 400px;
+    margin-left: 350px;
     padding-left: 15px;
-    width: 30%;
+    width: 40%;
     height: 40%
 }
 .summary h3{
@@ -825,6 +825,19 @@ table{
         max-width: 100%;
     }
 
+    .list{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.summary {
+
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 80%;
+   
+}
 
     /* Style the navigation menu */
     nav {
