@@ -117,7 +117,7 @@ footer {
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    font-size:0.8em;
+    font-size: 0.8em;
 
 }
 
@@ -156,8 +156,8 @@ footer {
     text-decoration: none;
 }
 
-.prolist{
-    width:70%;
+.prolist {
+    width: 70%;
 }
 
 .prolist h1 {
@@ -177,7 +177,7 @@ footer {
     margin: 0 2%;
     text-align: center;
     font-family: arial;
-   
+
 }
 
 .product-item img {
@@ -211,8 +211,8 @@ footer {
     font-size: 22px;
 }
 
-.sale{
-    color:red;
+.sale {
+    color: red;
 }
 .poster img{
     width: 100%;
@@ -236,7 +236,7 @@ footer {
 }
 
 .about img {
-   
+
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -387,19 +387,19 @@ input[type=submit]:hover {
 
 #contacts>div {
     width: 100%;
-   
+
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom:2em;
+    margin-bottom: 2em;
     /*border:1px solid green;*/
 }
 
-#contacts>div>div{
-    padding:1em;
-    border:2px solid #aaa;
-    border-radius:10px;
-    margin:1% 1%;
+#contacts>div>div {
+    padding: 1em;
+    border: 2px solid #aaa;
+    border-radius: 10px;
+    margin: 1% 1%;
 }
 
 #contacts input {
@@ -487,7 +487,7 @@ input[type=submit]:hover {
     display: flex;
     flex-direction: column;
     margin-bottom: 15%;
-    
+
 }
 
 h1 {
@@ -609,8 +609,8 @@ h1 {
 }
 
 
-table{
-    width:100%;
+table {
+    width: 100%;
 }
 
 
@@ -618,12 +618,13 @@ table{
 /*check out*/
 
 
-.list{
+.list {
     display: flex;
     flex-direction: row;
-    
+
 }
-.sp-container{
+
+.sp-container {
     display: flex;
     flex-direction: column;
 }
@@ -637,9 +638,10 @@ table{
 
     max-width: 180%;
 }
+
 .payment {
     border: 0.6px solid rgb(175, 166, 166);
-     margin-left: 20px;
+    margin-left: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
     padding-left: 15px;
@@ -661,7 +663,8 @@ table{
     padding-left: 15px;
     width: 30%;
 }
-.summary h3{
+
+.summary h3 {
     color: rgb(177, 212, 144);
 }
 
@@ -758,14 +761,14 @@ table{
         max-width: 100%;
     }
 
-    .list{
-    display: flex;
-    flex-direction: column;
+    .list {
+        display: flex;
+        flex-direction: column;
     }
 
-   .summary {
-    max-width: 100%;
-    margin-left: 20px;
+    .summary {
+        max-width: 100%;
+        margin-left: 20px;
     }
 
     /* Style the navigation menu */
@@ -827,7 +830,7 @@ table{
     }
 
 
-  
+
 
     #contacts>div {
         flex-direction: column;
@@ -849,28 +852,29 @@ table{
         margin-left: 0;
         margin-top: 0;
     }
-.details {
-    max-width: 100%;
-    margin: 0 auto;
-    display: block;
- }
+
+    .details {
+        max-width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
 
 
-.left-column {
-    width: 90%;   
-    position: flex;   
-}
+    .left-column {
+        width: 90%;
+        position: flex;
+    }
 
-.right-column {
-    width: 90%;  
-}
+    .right-column {
+        width: 90%;
+    }
 
-.left-column img {
-    width: 100%;
-    height: auto;
-    position: flex;
-    
-}
+    .left-column img {
+        width: 100%;
+        height: auto;
+        position: flex;
+
+    }
 
 
 
