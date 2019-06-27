@@ -521,6 +521,7 @@ max-width: 80%;
 .remove-item button:hover{
   opacity: 0.7;
 }
+
 .left-col{
   display:flex;
   flex-direction: row;
@@ -650,12 +651,7 @@ color:rgb(177, 212, 144);
   z-index: 10;
 }
 }
-.topbar{
- padding-top: 30%;
- padding-right: 5%;
- display: inline-block;
- 
-}
+
 
 /*
 @media (max-width: 940px) {
@@ -776,13 +772,9 @@ color:rgb(177, 212, 144);
 }
 .menuicon{
   display: block;
-  z-index: 20;
+  
 }
-<<<<<<< HEAD
-=======
 
-
->>>>>>> master
 #contacts>div{
   flex-direction: column;
 }
@@ -796,6 +788,11 @@ color:rgb(177, 212, 144);
 .whole{
   flex-direction: column;
 }
+.total{
+  margin-left:0;
+  margin-top: 0;
+}
+
 }
 
 
