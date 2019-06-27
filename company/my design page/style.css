@@ -70,7 +70,11 @@ footer {
     text-decoration: none;
     font-size:1.5em;
 }
- 
+
+
+.footer1 a:hover{
+    text-decoration: underline;
+}
 
 /* Container needed to position the button. Adjust the width as needed */
 
