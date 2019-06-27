@@ -693,16 +693,20 @@ table{
 
 .sbaddress {
     border: 0.6px solid rgb(175, 166, 166);
+    margin-left: 20px;
     margin-bottom: 20px;
-    margin-left:55px;
+    margin-right: 20px;
     padding-left: 15px;
-    width: 180%;
+
+    max-width: 100%;
 }
 .payment {
     border: 0.6px solid rgb(175, 166, 166);
-    margin-left: 50px;
+     margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
     padding-left: 15px;
-    width: 180%;
+    max-width: 100%;
 }
 
 .payment h3 {
@@ -716,8 +720,11 @@ table{
 .summary {
     border: 0.6px solid rgb(175, 166, 166);
     margin-left: 350px;
+
+    margin-bottom: 20px;
+    margin-right: 20px;
     padding-left: 15px;
-    width: 40%;
+    width: 30%;
     height: 40%
 }
 .summary h3{
@@ -827,10 +834,10 @@ table{
 }
 
 .summary {
+    max-width: 100%;
+    margin-left: 20px;
 
-    margin-left: 50px;
-    margin-top: 20px;
-    width: 80%;
+
    
 }
 
