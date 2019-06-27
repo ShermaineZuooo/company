@@ -823,16 +823,12 @@ table{
     .list{
     display: flex;
     flex-direction: column;
-    
-}
+    }
 
-.summary {
+   .summary {
     max-width: 100%;
     margin-left: 20px;
-
-
-   
-}
+    }
 
     /* Style the navigation menu */
     nav {
@@ -939,12 +935,6 @@ table{
     position: flex;
     
 }
-
-
-
-
-
-
 
 
 }
