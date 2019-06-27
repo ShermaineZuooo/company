@@ -219,17 +219,19 @@ footer {
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
+    position: flex;
+    flex-direction: row;
 }
 
 .about img {
-    text-align: center;
+   
     display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
-.about h1 p {
+/*.about h1 p {
     text-align: center;
 }
 /* end about page*/
@@ -467,7 +469,7 @@ input[type=submit]:hover {
 
 .bag-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-bottom: 5%;
     border: 0.6px solid rgb(175, 166, 166);
 }
@@ -597,83 +599,9 @@ table{
 }
 
 
-/*
 
-
-
-
-
-
-
-
-.
 /*check out*/
 
-/*
-
-.sbaddress {
-    border: 0.6px solid rgb(175, 166, 166);
-    margin-left: 50px;
-    margin-bottom: 20px;
-    padding-left: 15px;
-    width: 600px;
-}
-
-.sbaddress h3 {
-    color: rgb(177, 212, 144);
-}
-
-.payment {
-    border: 0.6px solid rgb(175, 166, 166);
-    margin-left: 50px;
-    padding-left: 15px;
-    width: 600px;
-}
-
-.payment h3 {
-    color: rgb(177, 212, 144);
-}
-
-.summary {
-    border: 0.6px solid rgb(175, 166, 166);
-    position: relative;
-    width: 300px;
-    margin-left: 700px;
-    padding-left: 2%;
-    margin-top: -655px;
-    margin-bottom: 450px;
-}
-
-.summary h3 {
-    color: rgb(177, 212, 144);
-}
-
-.summary button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: rgb(177, 212, 144);
-    text-align: center;
-    cursor: pointer;
-    width: 40%;
-    font-size: 18px;
-    margin-left: 50%;
-    border-radius: 12px;
-    transition-timing-function: ease-in;
-}
-
-.summary button:hover {
-    opacity: 0.7;
-}
-
-.summary hr {
-    width: 85%;
-    margin-left: 1px;
-    margin-top: 10px;
-    border-top: 1px solid rgb(177, 212, 144);
-}
-*/
 
 .list{
     display: flex;
@@ -687,16 +615,20 @@ table{
 
 .sbaddress {
     border: 0.6px solid rgb(175, 166, 166);
+    margin-left: 20px;
     margin-bottom: 20px;
-    margin-left:55px;
+    margin-right: 20px;
     padding-left: 15px;
-    width: 180%;
+
+    max-width: 180%;
 }
 .payment {
     border: 0.6px solid rgb(175, 166, 166);
-    margin-left: 50px;
+     margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
     padding-left: 15px;
-    width: 180%;
+    max-width: 180%;
 }
 
 .payment h3 {
@@ -710,8 +642,11 @@ table{
 .summary {
     border: 0.6px solid rgb(175, 166, 166);
     margin-left: 350px;
+
+    margin-bottom: 20px;
+    margin-right: 20px;
     padding-left: 15px;
-    width: 40%;
+    width: 30%;
     height: 40%
 }
 .summary h3{
@@ -739,10 +674,7 @@ table{
     display: none;
 }
 
-.menuicon {
-    display: none;
-    z-index: 10;
-}
+
 
 
 .active,
@@ -817,16 +749,12 @@ table{
     .list{
     display: flex;
     flex-direction: column;
-    
-}
+    }
 
-.summary {
-
-    margin-left: 50px;
-    margin-top: 20px;
-    width: 80%;
-   
-}
+   .summary {
+    max-width: 100%;
+    margin-left: 20px;
+    }
 
     /* Style the navigation menu */
     nav {
@@ -887,9 +815,7 @@ table{
     }
 
 
-    .menuicon {
-        display: none;
-    }
+  
 
     #contacts>div {
         flex-direction: column;
@@ -933,12 +859,6 @@ table{
     position: flex;
     
 }
-
-
-
-
-
-
 
 
 }
