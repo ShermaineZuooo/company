@@ -729,6 +729,21 @@ table{
     color: rgb(177, 212, 144);
 }
 
+.summary button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(177, 212, 144);
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    font-size: 18px;
+    margin-left: 50%;
+    border-radius: 12px;
+    transition-timing-function: ease-in;
+}
+
 
 .active,
 .icon {
