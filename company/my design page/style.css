@@ -197,11 +197,14 @@ footer {
 .sale {
     color: red;
 }
+<<<<<<< HEAD
 
 .poster img {
     width: 100%;
     height: 80%;
 }
+=======
+>>>>>>> master
 
 .container .btn:hover {
     background-color: black;
@@ -454,6 +457,11 @@ input[type=submit]:hover {
 
 .whole {
     display: flex;
+
+}
+
+.list2 {
+    border: 0px solid green;
 }
 
 .whole>div {
@@ -557,10 +565,8 @@ h1 {
 .total {
     border: 0.6px solid rgb(175, 166, 166);
     width: 70%;
-    margin-left: 80%;
-    padding-left: 2%;
-    margin-top: -50%;
-    margin-bottom: 100px;
+    padding: 2%;
+    height: 250px;
 }
 
 .checkout {
@@ -586,14 +592,6 @@ h1 {
 }
 
 
-.total hr {
-    width: 85%;
-    margin-left: 1px;
-    margin-top: 10px;
-    border-top: 1px solid rgb(177, 212, 144);
-}
-
-
 table {
     width: 100%;
 }
@@ -605,13 +603,16 @@ table {
 
 .list {
     display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2%;
+
 
 }
 
 .sp-container {
-    display: flex;
-    flex-direction: column;
+    width: 50%;
+
+
 }
 
 .sbaddress {
@@ -620,8 +621,6 @@ table {
     margin-bottom: 20px;
     margin-right: 20px;
     padding-left: 15px;
-
-    max-width: 180%;
 }
 
 .payment {
@@ -630,7 +629,6 @@ table {
     margin-bottom: 20px;
     margin-right: 20px;
     padding-left: 15px;
-    max-width: 180%;
 }
 
 .payment h3 {
@@ -643,10 +641,10 @@ table {
 
 .summary {
     border: 0.6px solid rgb(175, 166, 166);
-    margin-left: 350px;
     margin-right: 20px;
     padding-left: 15px;
     width: 30%;
+    height: 200px;
 }
 
 .summary h3 {
@@ -667,6 +665,7 @@ table {
     border-radius: 12px;
     transition-timing-function: ease-in;
 }
+
 
 
 .active,
@@ -749,6 +748,7 @@ table {
     .list {
         display: flex;
         flex-direction: column;
+        width: 200%;
     }
 
     .summary {
@@ -831,11 +831,13 @@ table {
 
     .whole {
         flex-direction: column;
+
     }
 
     .total {
-        margin-left: 0;
-        margin-top: 0;
+        margin: 2%;
+        width: 90%;
+        padding: 2%;
     }
 
     .details {
@@ -861,6 +863,7 @@ table {
 
     }
 
+<<<<<<< HEAD
     .about {
 
         padding:2%;
@@ -881,6 +884,8 @@ table {
         width: 100%;
     }
 
+=======
+>>>>>>> master
 
 }
 
