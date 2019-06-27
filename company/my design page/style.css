@@ -769,19 +769,9 @@ color:rgb(177, 212, 144);
 }
 .menuicon{
   display: block;
-  z-index: 20;
+  
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-
-=======
-=======
-=======
-
-
->>>>>>> master
->>>>>>> master
 #contacts>div{
   flex-direction: column;
 }
