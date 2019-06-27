@@ -703,10 +703,6 @@ table{
     border-top: 1px solid rgb(177, 212, 144);
 }
 
-.menuicon {
-    display: none;
-    z-index: 10;
-}
 
 
 .active,
@@ -838,9 +834,6 @@ table{
     }
 
 
-    .menuicon {
-        display: none;
-    }
 
     #contacts>div {
         flex-direction: column;
