@@ -156,6 +156,9 @@ footer {
     text-decoration: none;
 }
 
+.prolist{
+    width:70%;
+}
 
 .prolist h1 {
     margin-left: 10%;
@@ -174,6 +177,7 @@ footer {
     margin: 0 2%;
     text-align: center;
     font-family: arial;
+   
 }
 
 .product-item img {
@@ -205,6 +209,10 @@ footer {
 .price {
     color: grey;
     font-size: 22px;
+}
+
+.sale{
+    color:red;
 }
 
 .container .btn:hover {
