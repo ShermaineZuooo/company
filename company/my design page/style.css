@@ -6,7 +6,7 @@
 
 body {
     background-color: #fff;
-    max-width: 1200px;
+
     margin: auto;
     font-family: STKaiti, serif;
     color: black;
@@ -60,27 +60,9 @@ footer {
     padding-top: 2em;
     padding-bottom: .8em;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-}
-
-.footer1 {
-    display: flex;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: black;
-    text-align: center;
-}
-
-.social {
-    display: flex;
-    padding-right: 5%;
-    padding-left: 5%;
+    flex-wrap: wrap;
 }
 
 
@@ -91,6 +73,7 @@ footer {
     position: relative;
     display: block;
     width: 100%;
+    
 }
 
 
@@ -214,6 +197,14 @@ footer {
 .sale {
     color: red;
 }
+<<<<<<< HEAD
+
+.poster img {
+    width: 100%;
+    height: 80%;
+}
+=======
+>>>>>>> master
 
 .container .btn:hover {
     background-color: black;
@@ -227,21 +218,22 @@ footer {
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
-    position: flex;
-    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 .about img {
-
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    width: 100%;
+    height: auto;
+    min-width:300px;
 }
 
-/*.about h1 p {
-    text-align: center;
+.about div {
+    width: 45%;
 }
+
 /* end about page*/
 
 /*
@@ -871,6 +863,29 @@ table {
 
     }
 
+<<<<<<< HEAD
+    .about {
+
+        padding:2%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about div {
+        width: 100%;
+    }
+
+    .prolist {
+        width: 100%;
+    }
+
+=======
+>>>>>>> master
 
 }
 
