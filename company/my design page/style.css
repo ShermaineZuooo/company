@@ -33,11 +33,19 @@ nav {
     font-family: 'arial';
     font-size: 20px;
     text-align: center;
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 }
 
 nav li {
     display: inline-block;
     padding: 24px 10px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 }
 
 nav li a {
@@ -55,6 +63,7 @@ figure {
 }
 
 footer {
+<<<<<<< HEAD
 
     color: rgb(8, 1, 1);
     margin: 0.2em auto 0px auto;
@@ -62,12 +71,26 @@ footer {
     padding-bottom: .8em;
     display: flex;
     align-items: center;
+=======
+
+    color: rgb(8, 1, 1);
+    margin: 0.2em auto 0px auto;
+    padding-top: 2em;
+    padding-bottom: .8em;
+    display: flex;
+    align-items: center;
+
+>>>>>>> master
 }
 
 .footer1 {
     display: flex;
     padding-left: 5%;
     padding-right: 5%;
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 }
 
 .footer {
@@ -82,8 +105,13 @@ footer {
     display: flex;
     padding-right: 5%;
     padding-left: 5%;
+<<<<<<< HEAD
 }
 
+=======
+
+}
+>>>>>>> master
 
 
 /* Container needed to position the button. Adjust the width as needed */
@@ -127,6 +155,10 @@ footer {
     color: white;
     font-size: 40px;
     transform: translate(-50%, -50%);
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 }
 
 
@@ -165,6 +197,14 @@ footer {
     margin-left: 10%;
     margin-bottom: 5%;
 }
+<<<<<<< HEAD
+=======
+
+.product-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+>>>>>>> master
 
 .product-container {
     display: flex;
@@ -272,7 +312,10 @@ input[type=submit]:hover {
     display: flex;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 /* Columns */
 
 .left-column {
@@ -287,7 +330,10 @@ input[type=submit]:hover {
     margin-top: 60px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 /* Left Column */
 
 .left-column img {
@@ -297,7 +343,10 @@ input[type=submit]:hover {
     transition: all 0.3s ease;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 /* Product Description */
 
 .product-description {
@@ -361,6 +410,12 @@ input[type=submit]:hover {
 .about {
     padding-bottom: 5%;
 }
+<<<<<<< HEAD
+=======
+
+.about img {
+    text-align: center;
+>>>>>>> master
 
 .about img {
     text-align: center;
@@ -457,6 +512,7 @@ input[type=submit]:hover {
     margin-top: 3.8%;
 }
 
+<<<<<<< HEAD
 
 /*shopping bag*/
 
@@ -472,14 +528,27 @@ input[type=submit]:hover {
     display: flex;
 }
 
+=======
+/*shopping bag*/
+
+>>>>>>> master
 .bag-container {
     display: flex;
     flex-direction: row;
     margin-bottom: 5%;
     border: 0.6px solid rgb(175, 166, 166);
+<<<<<<< HEAD
 }
 
 h1 {
+=======
+    margin-left: 5%;
+    width: 70%;
+
+}
+
+.list h1 {
+>>>>>>> master
     margin-left: 5%;
     margin-bottom: 2%;
 }
@@ -492,6 +561,10 @@ h1 {
     text-transform: uppercase;
     text-decoration: none;
     padding-top: 3%;
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 }
 
 .product-detail h3 {
@@ -499,6 +572,10 @@ h1 {
     font-weight: 300;
     font-size: 170%;
     color: #43484D;
+<<<<<<< HEAD
+=======
+    line-height: 1px;
+>>>>>>> master
     margin-top: 3%;
 }
 
@@ -508,6 +585,10 @@ h1 {
     font-size: 150%;
     color: #43484D;
     letter-spacing: -1px;
+<<<<<<< HEAD
+=======
+    line-height: 3%;
+>>>>>>> master
     margin-top: 0%;
 }
 
@@ -519,28 +600,51 @@ h1 {
     line-height: 130%;
     max-width: 80%;
     margin-top: 0%;
+<<<<<<< HEAD
+=======
+
+
+}
+
+.product-detail {
+    display: flex;
+    flex-direction: column;
+>>>>>>> master
 }
 
 .bag-item {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     text-align: center;
     font-family: arial;
+<<<<<<< HEAD
     width: 98%;
     margin: 5px;
 
 
+=======
+    width: 90%;
+>>>>>>> master
 }
 
 
 .bag-item img {
+<<<<<<< HEAD
     width: 98%;
 
+=======
+    width: 90%;
+    margin: 5px;
+>>>>>>> master
 }
 
 .remove-item {
     margin-left: 5%;
     margin-top: 5%;
     max-width: 80%;
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 }
 
 .remove-item button {
@@ -553,15 +657,32 @@ h1 {
     cursor: pointer;
     width: 100%;
     font-size: 18px;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> master
 }
 
 .remove-item button:hover {
     opacity: 0.7;
 }
 
+<<<<<<< HEAD
 .total {
     border: 0.6px solid rgb(175, 166, 166);
     width: 70%;
+=======
+.left-col {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+}
+
+.total {
+    border: 0.6px solid rgb(175, 166, 166);
+    width: 25%;
+>>>>>>> master
     margin-left: 80%;
     padding-left: 2%;
     margin-top: -50%;
@@ -590,7 +711,10 @@ h1 {
     opacity: 0.7;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 .total hr {
     width: 85%;
     margin-left: 1px;
@@ -598,6 +722,7 @@ h1 {
     border-top: 1px solid rgb(177, 212, 144);
 }
 
+<<<<<<< HEAD
 
 table{
     width:100%;
@@ -617,6 +742,10 @@ table{
 /*check out*/
 
 
+=======
+.
+/*check out*/
+>>>>>>> master
 /*
 .sbaddress{
   border:0.6px solid red;
@@ -646,6 +775,7 @@ table{
     margin-bottom: 20px;
     padding-left: 15px;
     width: 600px;
+<<<<<<< HEAD
 }
 
 .sbaddress h3 {
@@ -691,11 +821,58 @@ table{
     border-radius: 12px;
     transition-timing-function: ease-in;
 }
+=======
+}
+
+.sbaddress h3 {
+    color: rgb(177, 212, 144);
+}
+
+.payment {
+    border: 0.6px solid rgb(175, 166, 166);
+    margin-left: 50px;
+    padding-left: 15px;
+    width: 600px;
+}
+
+.payment h3 {
+    color: rgb(177, 212, 144);
+}
+
+.summary {
+    border: 0.6px solid rgb(175, 166, 166);
+    position: relative;
+    width: 300px;
+    margin-left: 700px;
+    padding-left: 2%;
+    margin-top: -655px;
+    margin-bottom: 450px;
+}
+
+.summary h3 {
+    color: rgb(177, 212, 144);
+}
+
+.summary button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(177, 212, 144);
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    font-size: 18px;
+    margin-left: 50%;
+    border-radius: 12px;
+    transition-timing-function: ease-in;
+>>>>>>> master
 
 .summary button:hover {
     opacity: 0.7;
 }
 
+<<<<<<< HEAD
 .summary hr {
     width: 85%;
     margin-left: 1px;
@@ -712,8 +889,30 @@ table{
 .active,
 .icon {
     display: none;
+=======
+.summary button:hover {
+    opacity: 0.7;
 }
 
+.summary hr {
+    width: 85%;
+    margin-left: 1px;
+    margin-top: 10px;
+    border-top: 1px solid rgb(177, 212, 144);
+
+}
+
+.menuicon {
+    display: none;
+    z-index: 10;
+>>>>>>> master
+}
+
+
+.active,
+.icon {
+    display: none;
+}
 
 /*
 @media (max-width: 940px) {
@@ -734,14 +933,18 @@ table{
     left: initial;
   }
 }*/
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> master
 /*
 @media (max-width: 535px) {
   .left-column img {
     width: 220px;
     top: -85px;
   }*/
+<<<<<<< HEAD
 
 @media (max-width: 480px) {
 
@@ -770,6 +973,35 @@ table{
         display: none;
     }
 
+=======
+@media (max-width: 480px) {
+
+    .active,
+    .icon {
+        display: block;
+    }
+
+    .shoppage {
+        flex-direction: column;
+    }
+
+    .category {
+        background-color: #B7BE78;
+        color: white;
+        max-width: 100%;
+    }
+
+    .category {
+        display: flex;
+        padding: 0;
+        justify-content: space-evenly;
+    }
+
+    .category h4 {
+        display: none;
+    }
+
+>>>>>>> master
     .product-container {
         flex-direction: column;
     }
@@ -840,6 +1072,10 @@ table{
 
     .menuicon {
         display: none;
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
     }
 
     #contacts>div {
@@ -862,6 +1098,10 @@ table{
         margin-left: 0;
         margin-top: 0;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 }
 
 
