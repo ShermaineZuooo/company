@@ -771,8 +771,12 @@ table {
     }
 
     .summary {
-        max-width: 100%;
+        width: 83%;
         margin-left: 20px;
+    }
+
+    .sp-container{
+        width: 100%;
     }
 
     /* Style the navigation menu */
