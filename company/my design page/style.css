@@ -815,9 +815,7 @@ table{
     }
 
 
-    .menuicon {
-        display: none;
-    }
+  
 
     #contacts>div {
         flex-direction: column;
