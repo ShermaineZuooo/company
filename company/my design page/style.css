@@ -620,7 +620,7 @@ table{
     margin-right: 20px;
     padding-left: 15px;
 
-    max-width: 100%;
+    max-width: 180%;
 }
 .payment {
     border: 0.6px solid rgb(175, 166, 166);
@@ -628,7 +628,7 @@ table{
     margin-bottom: 20px;
     margin-right: 20px;
     padding-left: 15px;
-    max-width: 100%;
+    max-width: 180%;
 }
 
 .payment h3 {
