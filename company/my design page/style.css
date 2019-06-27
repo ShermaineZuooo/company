@@ -871,6 +871,9 @@ table{
     position: flex;
     
 }
+.product-item img {
+    width: 90%;
+}
 
 
 }
