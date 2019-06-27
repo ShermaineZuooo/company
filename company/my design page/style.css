@@ -110,8 +110,16 @@ footer {
     cursor: pointer;
     border-radius: 5px;
     font-size: 0.8em;
+    transition: color 2s;
 
 }
+
+.container .btn:hover{
+    color: green;
+    background-color: white;
+
+}
+
 
 .centered {
     position: absolute;
