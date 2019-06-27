@@ -474,7 +474,7 @@ input[type=submit]:hover {
 .left-col {
     display: flex;
     border: 0.6px solid rgb(175, 166, 166);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 
 
 }
