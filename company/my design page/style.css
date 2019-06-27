@@ -756,7 +756,7 @@ table {
     .list {
         display: flex;
         flex-direction: column;
-        width: 200%;
+      
     }
 
     .summary {
