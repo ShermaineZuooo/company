@@ -65,7 +65,11 @@ footer {
     flex-wrap: wrap;
 }
 
-
+.footer1 a{
+    color:#50a554;
+    text-decoration: none;
+}
+ 
 
 /* Container needed to position the button. Adjust the width as needed */
 
