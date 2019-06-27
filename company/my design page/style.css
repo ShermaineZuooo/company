@@ -211,26 +211,38 @@ footer {
     background-color: black;
 }
 
+/*about page*/
+
 .about {
 
-    padding-bottom: 50%;
+    padding-bottom: 5%;
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
+    position: flex;
+    flex-direction: row;
 }
 
 .about img {
-    display: block;
+   
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
+/*.about h1 p {
+    text-align: center;
+}
+/* end about page*/
+
+/*
 .contact {
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
 }
+*/
 
 input[type=text],
 select,
@@ -352,22 +364,6 @@ input[type=submit]:hover {
 .cart-btn:hover {
 
     opacity: 50%;
-}
-
-.about {
-    padding-bottom: 5%;
-}
-
-.about img {
-    text-align: center;
-}
-
-.about p {
-    text-align: center;
-}
-
-.about h1 {
-    text-align: center;
 }
 
 
@@ -752,10 +748,7 @@ table{
     display: none;
 }
 
-.menuicon {
-    display: none;
-    z-index: 10;
-}
+
 
 
 .active,
@@ -947,10 +940,7 @@ table{
     
 }
 
-.bag img{
-    width: 20;
-    height: 20;
-}
+
 
 
 
