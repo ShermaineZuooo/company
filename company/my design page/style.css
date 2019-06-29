@@ -587,28 +587,6 @@ h1 {
     margin-top: 5%;
     max-width: 80%;
 }
-.remove-item input{
-    border-radius: 15px;
-    outline: 0;
-    padding: 12px;
-   
-    background-color: rgb(177, 212, 144);
-  
-    cursor: pointer;
-    width: 100%;
-    
-} 
-.remove-item input:hover {
-    opacity: 0.7;
-}
-
-.remove-item input[value]{
-
-      text-align: center;
-      color: white;
-      font-size: 18px;
-}
-/*
 
 .remove-item button {
     border-radius: 15px;
@@ -620,12 +598,12 @@ h1 {
     cursor: pointer;
     width: 100%;
     font-size: 18px;
+    
 }
 
 .remove-item button:hover {
     opacity: 0.7;
 }
-*/
 
 .total {
     border: 0.6px solid rgb(175, 166, 166);
@@ -641,30 +619,23 @@ h1 {
     margin-left: 10px;
     margin-right: 40px;
 }
-.checkout input{
+
+
+.checkout button {
     border-radius: 15px;
     outline: 0;
-  
-      padding: 12px;
+    padding: 12px;
+    color: white;
     background-color: rgb(177, 212, 144);
-   
+    text-align: center;
     cursor: pointer;
     width: 100%;
-
+    font-size: 18px;
 }
-.checkout input:hover {
+
+.checkout button:hover {
     opacity: 0.7;
 }
-.checkout input[value]{
-
-    color: white;
-    text-align: center;
-    font-size: 18px;
-
-}
-
-
-
 
 
 table {
