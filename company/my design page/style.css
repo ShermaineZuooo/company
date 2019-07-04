@@ -62,10 +62,11 @@ figure {
     padding-right: 5%;
     padding-left: 5%;
     margin:3%;
+    margin:auto;
 
 }
 .bottomone{
-    max-width:400px;
+    max-width:480px;
     text-align: center; 
     position: relative;
     color: white; 
@@ -968,11 +969,13 @@ table {
     margin:0;
 
 }
-
 .bottomone img{
     width:100%;
+}
 
-
+.bottomone{
+    max-width: 480px;
+    padding: 2%
 }
 
 
