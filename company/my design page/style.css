@@ -60,9 +60,8 @@ figure {
     flex-direction: row;
     justify-content:space-evenly;
     width:80%;
-    padding-right: 2%;
-    padding-left: 2%;
-    margin:3%;
+   
+    margin:10%;
     margin:auto;
 
 }
