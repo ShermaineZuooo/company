@@ -450,7 +450,10 @@ input[type=submit]:hover {
     line-height: 110px;
     margin: 0 auto;
     font-weight: 400;
-    color:#aaa
+    color: #707070;
+}
+#con{
+    color: #707070;
 }
 
 
