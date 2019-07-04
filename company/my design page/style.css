@@ -56,19 +56,21 @@ figure {
 
 footer {
     color: rgb(8, 1, 1);
-    margin: 0.2em auto 0px auto;
-    padding-top: 2em;
+    padding-top: 0em;
     padding-bottom: .8em;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    width:50%;
+    margin:auto;
 }
+
+
 
 .footer1 a{
     color:#B7BE78;
     text-decoration: none;
-    font-size:1.5em;
 }
 
 
@@ -237,12 +239,10 @@ footer {
 
 .about {
 
-    padding-bottom: 5%;
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
+    width:80%;
+    margin:auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: center;
     flex-wrap: wrap;
 }
@@ -250,11 +250,12 @@ footer {
 .about img {
     width: 100%;
     height: auto;
-    min-width:300px;
 }
 
 .about div {
     width: 45%;
+    margin:2%;
+    min-width:460px;
 }
 
 /* end about page*/
@@ -301,33 +302,28 @@ input[type=submit]:hover {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
+    flex-direction: center;
 }
 
-
-/* Columns */
-
 .left-column {
-    width: 65%;
-    height: 60%;
-    position: relative;
-    margin-top: 0px;
+    width: 40%;
+    /*height: 60%;*/
+    /*position: relative;
+    margin-top: 0px;*/
+    text-align:right;
 }
 
 .right-column {
-    width: 35%;
-    margin-top: 60px;
+    width: 60%;
+    padding:4%;
 }
 
 
-/* Left Column */
-
 .left-column img {
-    width: 80%;
-    height: 80%;
+    width:70%;
    /*position: fixed;*/
     transition: all 0.3s ease;
 }
-
 
 /* Product Description */
 
@@ -346,7 +342,7 @@ input[type=submit]:hover {
 
 .product-description h1 {
     font-weight: 300;
-    font-size: 52px;
+    font-size: 40px;
     color: #43484D;
     letter-spacing: -2px;
 }
@@ -357,7 +353,6 @@ input[type=submit]:hover {
     color: #86939E;
     line-height: 24px;
 }
-
 
 /* Product Price */
 
@@ -401,7 +396,7 @@ input[type=submit]:hover {
 
     margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-bottom: 2em;
     /*border:1px solid green;*/
 }
@@ -498,7 +493,7 @@ text-decoration: none;
 
 .whole {
     display: flex;
-
+    margin-top:2em;
 }
 /*
 .list2 {
@@ -609,10 +604,10 @@ h1 {
 }
 .total{
     border: 0.6px solid rgb(175, 166, 166);
-    position: relative;
     width: 70%;
     padding-left: 2%;
-    height: 250px;
+    height:240px;
+    margin-right:2%;
 }
 
 
@@ -654,16 +649,12 @@ table {
 
 .list {
     display: flex;
-    justify-content: space-evenly;
-    padding: 2%;
-
-
+    justify-content: center;
+    padding: 0 2%;
 }
 
 .sp-container {
     width: 50%;
-
-
 }
 
 .sbaddress {
@@ -690,13 +681,18 @@ table {
     color: rgb(177, 212, 144);
 }
 
+#checkoutHeading{
+    margin-left:12%;
+    margin-bottom:1em;
+}
+
 .summary {
     border: 0.6px solid rgb(175, 166, 166);
     margin-right: 20px;
     padding-left: 15px;
     
     width: 30%;
-    height: 200px;
+    height: 230px;
 }
 
 .summary h3 {
@@ -780,6 +776,11 @@ table {
     .summary {
         width: 83%;
         margin-left: 20px;
+    }
+
+    #checkoutHeading{
+        margin-left:6%;
+        margin-bottom:0.5em;
     }
 
     .sp-container{
@@ -907,10 +908,26 @@ table {
 
     .about div {
         width: 100%;
+        margin:0;
+        padding:2%;
+
+    min-width:0;
     }
 
     .prolist {
         width: 100%;
+    }
+
+    footer{
+        width:90%;
+    }
+
+    .social{
+        text-align:center;
+    }
+
+    .social img{
+        width:60%;
     }
 
 
