@@ -74,6 +74,7 @@ figure {
 }
 .bottomone img{
     width:80%;
+    opacity: 0.1
     
 }
 .text{
@@ -81,6 +82,7 @@ figure {
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
+   color: grey;
     }
 
 footer {
