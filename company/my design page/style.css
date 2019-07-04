@@ -66,7 +66,7 @@ figure {
 
 }
 .bottomone{
-    max-width:400px;
+    max-width:480px;
     text-align: center; 
     position: relative;
     color: white; 
@@ -978,6 +978,11 @@ table {
 
 .bottomone img{
     width:100%;
+}
+
+.bottomone {
+    max-width: 480px;
+    padding: 2%
 }
 
 }
