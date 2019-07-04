@@ -52,7 +52,35 @@ figure {
     margin: auto;
     width: 100%;
 }
+/*bottommian*/
+.bottommain{
+    padding-top: 5%;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    width:80%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin:3%;
 
+}
+.bottomone{
+    max-width:400px;
+    text-align: center; 
+    position: relative;
+    color: white; 
+
+}
+.bottomone img{
+    width:80%;
+    
+}
+.text{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+    }
 footer {
     color: rgb(8, 1, 1);
     padding-top: 0em;
@@ -928,7 +956,24 @@ table {
     .social img{
         width:60%;
     }
+/*bottommian*/
+.bottommain{
+    padding-top: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    width:100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin:0;
 
+}
+
+.bottomone img{
+    width:100%;
+
+
+}
 
 
 }
