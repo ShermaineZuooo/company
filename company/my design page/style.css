@@ -428,6 +428,10 @@ input[type=submit]:hover {
     margin-bottom: 2em;
     /*border:1px solid green;*/
 }
+#contacts>div>div {
+    padding: 1em;
+    margin: 1% 1%;
+}
 
 
 #contacts input {
