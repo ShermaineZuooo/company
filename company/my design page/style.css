@@ -450,10 +450,9 @@ input[type=submit]:hover {
     line-height: 110px;
     margin: 0 auto;
     font-weight: 400;
+    color:#aaa
 }
-#con{
 
-}
 
 #email {
     height: 50px;
